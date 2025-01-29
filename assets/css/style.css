@@ -156,6 +156,10 @@ body.dark-mode .section-title h2 {
   color: #ffffff;
 }
 
+body.dark-mode .progress .skill {
+  color: #ffffff;
+}
+
 body.dark-mode .about .content h3 {
   color: #0563bb;
 }
@@ -168,6 +172,10 @@ body.dark-mode .progress-bar {
   background-color: #0563bb;
 }
 
+body.dark-mode .resume-title {
+  color: #e0e0e0;
+}
+
 body.dark-mode .resume-item,
 body.dark-mode .resume-item h5,
 body.dark-mode .icon-box {
@@ -175,8 +183,13 @@ body.dark-mode .icon-box {
   color: #e0e0e0;
 }
 
+body.dark-mode .address h4,
+body.dark-mode .email h4,
+body.dark-mode .phone h4 {
+  color: #e0e0e0;
+}
+
 body.dark-mode .contact .info {
-  background-color: #2a2a2a;
   color: #e0e0e0;
 }
 
@@ -788,6 +801,18 @@ section {
   border: 2px solid #0563bb;
 }
 
+.resume .resume-item .hobbies-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resume .resume-item .hobbies-list li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -950,7 +975,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
