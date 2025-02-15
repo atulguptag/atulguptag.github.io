@@ -156,6 +156,14 @@ body.dark-mode .section-title h2 {
   color: #ffffff;
 }
 
+body.dark-mode #experience .section-title p {
+  color: #e0e0e0;
+}
+
+body.dark-mode #experience .timeline-item p{
+  color: #e0e0e0;
+}
+
 body.dark-mode .progress .skill {
   color: #ffffff;
 }
